@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+ul{
+width: 70%;
+z-index: 0;
+}
+.logo{
+    width: 100%;
+    text-align: left;
+    z-index: 1;
+}
+.header_bloc{
+    width: 100%;
+height: 698px;
+    background: url(../img/IMAGE\ \(19\).png) no-repeat center center / cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.text{
+    width: 576px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_p{
+    font-family: Roboto;
+font-size: 27px;
+font-weight: 700;
+line-height: 38.4px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #fff;
+}
+.text_btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    background: none;
+    color: #fff;
+    font-size: 20px;
+    width: 40%;
+    margin-bottom: 50px;
+}
+.text_btn:hover{
+    cursor: pointer;
+    background: gold;
+    border-radius: 20%;
+    color: #000;
+    border: none;
+
+}
+
+
+.down{
+    height: 150px;
+    align-items: center;
+    margin: 0 30px;
+}
+.free{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+.free_p{
+    font-size: 15px;
+}
+
+.wodu{
+    margin: 100px 0;
+}
+.cloe{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin: 80px 0;
+    font-style: italic;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.cloe_btn{
+    border: none;
+    background: none;
+    border-bottom: 2px solid black;
+    margin: 0 0 0 420px;
+}
+.cloe_btn a{
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+.col{
+    margin-top: 80px;
+}
+.btn{
+    margin: 0 0 0 0px;
+}
+.sec_img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sec_p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 0 0px 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+.col{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cul{
+    background: #ffffff;
+}
+.a_he{
+    color: #000;
+}
+header{
+    background: #faf9f9;
+}
+section{
+    background: #faf9f9;
+}
+.a_h{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    margin-top: 50px   ;
+}
+.p_clas{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 90px;
+}
+.img_clas{
+    
+    width: 100%;
+}
+.WHO{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+}
+footer{
+    background: rgb(232, 232, 232);
+}
+.design{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    text-decoration: none;
+
+}
+.design1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    text-decoration: none;
+    margin: 0px 0px;
+}
+.design_soz{
+    text-decoration: none;
+    color: black;
+}
+.design_h2{
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: none;
+    font-weight: 400;
+}
+.design_a{
+    color: #000;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    text-decoration: none;
+    font-style: 20px;
+}
+.dont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.dont-h2{
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-style: 30px;
+    font-weight: 400;
+}
+.dont_button{
+    background: white;
+    border: 2px solid black;
+    width: 300px;
+    height: 30px;
+}
+.dont_button a{
+    color: #000;
+    text-decoration: none;
+    align-items: center;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.copy{
+    display: flex;
+    padding: 50px 0;
+    gap: 200px;
+}
